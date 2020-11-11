@@ -1,0 +1,44 @@
+th,td {
+    text-align: center;
+}
+.jsgrid-grid-body .jsgrid-cell:last-child {
+    text-align: center;
+}
+.index-circle-card {
+    height: 100% !important;
+}
+.row-tow {
+    padding-bottom: 12px;
+}
+.backcolor {
+    background-color: #343957 !important;
+}
+.bar-color .ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut {
+    stroke: #e6a1f2;
+}
+.user-de {
+    display: flex;
+    justify-content: space-between;
+}
+.user-de-father {
+    width: 100%;
+}
+.input-search {
+    border: 1px solid #c9c9c9;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    outline: none;
+    margin: 5% 0px;
+}
+.user-de button {
+    border: 1px solid #5772FE;
+    background: linear-gradient(to right, #5772FE , #6D85FB);
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+@media (max-width: 679px) and (min-width: 320px) {
+.sidebar {
+    top: 0px;
+}
+}

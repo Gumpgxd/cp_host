@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+        <!-- Styles -->
+        <link href="assets/css/lib/calendar2/pignose.calendar.min.css" rel="stylesheet">
+        <link href="assets/css/lib/chartist/chartist.min.css" rel="stylesheet">
+        <link href="assets/css/lib/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/lib/themify-icons.css" rel="stylesheet">
+        <link href="assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
+        <link href="assets/css/lib/owl.theme.default.min.css" rel="stylesheet" />
+        <link href="assets/css/lib/weather-icons.css" rel="stylesheet" />
+        <link href="assets/css/lib/menubar/sidebar.css" rel="stylesheet">
+        <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/lib/helper.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+  <!-- 侧边栏 start -->
+  <div class="sidebar sidebar-hide-to-small sidebar-shrink sidebar-gestures">
+    <div class="nano">
+        <div class="nano-content">
+            <ul>
+                <div class="logo"><a href="#"><!-- <img src="assets/images/logo.png" alt="" /> --><span>职业测评系统</span></a></div>
+                <li class="label">主页</li>
+                <li><a href="index.html"><i class="ti-home"></i>首页</a>
+                </li>
+
+                <li class="label">功能</li>
+                <li><a href="User-details.html"><i class="ti-bar-chart-alt"></i>  用户信息 </span></a>
+                <li><a class="sidebar-sub-toggle"><i class="ti-bar-chart-alt"></i>  测试详情  <span class="sidebar-collapse-icon ti-angle-up"></span></a>
+                    <ul style="display: block;">
+                        <li><a href="Temperament-assessment.html">气质测评详情</a></li>
+                        <li><a href="PDP-personality-test.html">PDP性格测试详情</a></li>
+                        <li><a href="Holland-career-test.html">霍兰德职业测试详情</a></li>
+                    </ul>
+                </li>
+                <li><a><i class="ti-close"></i> 注销</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 侧边栏 end -->
+
+<!-- 顶部导航栏 start -->
+<div class="header">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="float-left">
+                <div class="hamburger sidebar-toggle">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            <div class="float-right">
+                <div class="dropdown dib">
+                    <div class="header-icon" data-toggle="dropdown">
+                        <i class="ti-bell"></i>
+                        <!-- <div class="drop-down dropdown-menu dropdown-menu-right">
+                            <div class="dropdown-content-heading">
+                                <span class="text-left">Recent Notifications</span>
+                            </div>
+                            <div class="dropdown-content-body">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img class="pull-left m-r-10 avatar-img" src="assets/images/avatar/3.jpg" alt="" />
+                                            <div class="notification-content">
+                                                <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                <div class="notification-heading">Mr. John</div>
+                                                <div class="notification-text">5 members joined today </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="pull-left m-r-10 avatar-img" src="assets/images/avatar/3.jpg" alt="" />
+                                            <div class="notification-content">
+                                                <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                <div class="notification-heading">Mariam</div>
+                                                <div class="notification-text">likes a photo of you</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="pull-left m-r-10 avatar-img" src="assets/images/avatar/3.jpg" alt="" />
+                                            <div class="notification-content">
+                                                <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                <div class="notification-heading">Tasnim</div>
+                                                <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="pull-left m-r-10 avatar-img" src="assets/images/avatar/3.jpg" alt="" />
+                                            <div class="notification-content">
+                                                <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                <div class="notification-heading">Mr. John</div>
+                                                <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="text-center">
+                                        <a href="#" class="more-link">See All</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="dropdown dib">
+                    <div class="header-icon" data-toggle="dropdown">
+                        <i class="ti-email"></i>
+                        <!-- <div class="drop-down dropdown-menu dropdown-menu-right">
+                            <div class="dropdown-content-heading">
+                                <span class="text-left">2 New Messages</span>
+                                <a href="email.html">
+                                    <i class="ti-pencil-alt pull-right"></i>
+                                </a>
+                            </div>
+                            <div class="dropdown-content-body">
+                                <ul>
+                                    <li class="notification-unread">
+                                        <a href="#">
+                                            <img class="pull-left m-r-10 avatar-img" src="assets/images/avatar/1.jpg" alt="" />
+                                            <div class="notification-content">
+                                                <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                <div class="notification-heading">Michael Qin</div>
+                                                <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="notification-unread">
+                                        <a href="#">
+                                            <img class="pull-left m-r-10 avatar-img" src="assets/images/avatar/2.jpg" alt="" />
+                                            <div class="notification-content">
+                                                <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                <div class="notification-heading">Mr. John</div>
+                                                <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="pull-left m-r-10 avatar-img" src="assets/images/avatar/3.jpg" alt="" />
+                                            <div class="notification-content">
+                                                <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                <div class="notification-heading">Michael Qin</div>
+                                                <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="pull-left m-r-10 avatar-img" src="assets/images/avatar/2.jpg" alt="" />
+                                            <div class="notification-content">
+                                                <small class="notification-timestamp pull-right">02:34 PM</small>
+                                                <div class="notification-heading">Mr. John</div>
+                                                <div class="notification-text">Hi Teddy, Just wanted to let you ...</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="text-center">
+                                        <a href="#" class="more-link">See All</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="dropdown dib">
+                    <div class="header-icon" data-toggle="dropdown">
+                        <span class="user-avatar">User
+                            <i class="ti-angle-down f-s-10"></i>
+                        </span>
+                        <!-- <div class="drop-down dropdown-profile dropdown-menu dropdown-menu-right">
+                            <div class="dropdown-content-heading">
+                                <span class="text-left">Upgrade Now</span>
+                                <p class="trial-day">30 Days Trail</p>
+                            </div>
+                            <div class="dropdown-content-body">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-user"></i>
+                                            <span>Profile</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-email"></i>
+                                            <span>Inbox</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-settings"></i>
+                                            <span>Setting</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-lock"></i>
+                                            <span>Lock Screen</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-power-off"></i>
+                                            <span>Logout</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- 顶部导航栏 end -->
+
+
+<div class="content-wrap">
+    <div class="main">
+        <div class="container-fluid">
+
+            <!-- 第一行 start -->
+            <div class="row" style="height: 40px;">
+
+                <div class="col-lg-8 p-r-0 title-margin-right">
+                    <div class="page-header">
+                        <div class="page-title">
+                        </div>
+                    </div>
+                </div>
+                <!-- /# column -->
+                <div class="col-lg-4 p-l-0 title-margin-left">
+                    <div class="page-header">
+                        <div class="page-title">
+                        </div>
+                    </div>
+                </div>
+                <!-- /# column -->
+
+            </div>
+            <!-- 第一行 end -->
+
+
+            <section id="main-content">
+
+                <!-- 第二行 start -->
+                <div class="row row-tow">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="stat-widget-one">
+                                <div class="stat-icon dib"><i class="ti-user color-primary border-primary"></i></div>
+                                <div class="stat-content dib">
+                                    <div class="stat-text">总用户数</div>
+                                    <div class="stat-digit">100</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="stat-widget-one">
+                                <div class="stat-icon dib"><i class="ti-github color-success border-success"></i></div>
+                                <div class="stat-content dib">
+                                    <div class="stat-text">气质测评数据量</div>
+                                    <div class="stat-digit">100</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="stat-widget-one">
+                                <div class="stat-icon dib"><i class="ti-layout-grid2 color-pink border-pink"></i></div>
+                                <div class="stat-content dib">
+                                    <div class="stat-text">PDP性格测试数据量</div>
+                                    <div class="stat-digit">770</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="stat-widget-one">
+                                <div class="stat-icon dib"><i class="ti-link color-danger border-danger"></i></div>
+                                <div class="stat-content dib">
+                                    <div class="stat-text">霍兰德职业测评数据量</div>
+                                    <div class="stat-digit">2,781</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 第二行 end -->
+
+
+                <div class="row">
+                    <!-- 第三行柱状图 -->
+                    <div class="col-lg-4">                                
+                        <div class="card index-circle-card">
+                            <div class="card-title">
+                                <h4>气质测评各项平均分</h4>
+
+                            </div>
+                            <div class="card-body">
+                                <div class="ct-bar-chart m-t-30" id="colcharts" style="height: 300px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">                                
+                        <div class="card index-circle-card">
+                            <div class="card-title">
+                                <h4>PDP性格测试各项平均分</h4>
+
+                            </div>
+                            <div class="card-body">
+                                <div class="ct-bar-chart m-t-30 bar-color" id="colchartss" style="height: 300px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 第三行 饼图 -->
+                    <div class="col-lg-4">
+                        <div class="card index-circle-card">
+                            <div class="card-title">
+                                <h4>霍兰德职业测评各项结果占比</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="ct-pie-chart" id="piecharts" style="height: 300px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer">
+                            <p>Copyright &copy; 成都东软学院.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+        
+        <!-- jquery vendor -->
+        <script src="assets/js/lib/jquery.min.js"></script>
+        <script src="assets/js/lib/jquery.nanoscroller.min.js"></script>
+        <!-- nano scroller -->
+        <script src="assets/js/lib/menubar/sidebar.js"></script>
+        <script src="assets/js/lib/preloader/pace.min.js"></script>
+        <!-- sidebar -->
+
+        <script src="assets/js/lib/bootstrap.min.js"></script><script src="assets/js/scripts.js"></script>
+        <!-- bootstrap -->
+
+        <script src="assets/js/lib/calendar-2/moment.latest.min.js"></script>
+        <script src="assets/js/lib/calendar-2/pignose.calendar.min.js"></script>
+        <script src="assets/js/lib/calendar-2/pignose.init.js"></script>
+
+
+        <script src="assets/js/lib/weather/jquery.simpleWeather.min.js"></script>
+        <script src="assets/js/lib/weather/weather-init.js"></script>
+        <script src="assets/js/lib/circle-progress/circle-progress.min.js"></script>
+        <script src="assets/js/lib/circle-progress/circle-progress-init.js"></script>
+        <script src="assets/js/lib/chartist/chartist.min.js"></script>
+        <script src="assets/js/lib/sparklinechart/jquery.sparkline.min.js"></script>
+        <script src="assets/js/lib/sparklinechart/sparkline.init.js"></script>
+        <script src="assets/js/lib/owl-carousel/owl.carousel.min.js"></script>
+        <script src="assets/js/lib/owl-carousel/owl.carousel-init.js"></script>
+        <!-- scripit init-->
+    <script src="assets/js/dashboard2.js"></script>
+    </body>
+
+</html>
